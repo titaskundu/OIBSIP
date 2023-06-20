@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="image">
+
+                <img class="icon" src="/todo.png" alt="">
+            </div>
+            <h2 class="heading">
+
+                To Do List
+            </h2>
+        </header>
+        <div class="todoin">
+            <input id="input-text" type="text" placeholder="Type task here">
+            <button onclick="addTask()" type="submit">Add</button>
+        </div>
+
+        <div class="tasks">
+            <h2>Tasks</h2>
+            <h3>Time</h3>
+
+        </div>
+        <hr>
+        <div class="task-list">
+
+            <ul id="details" class="task-details">
+                <!-- <li class="checked"><input type="text" disabled placeholder="Task 1">
+                
+                </li>
+                <li>Task 2 <i class='fa fa-trash'> </i>
+                    <i class="fa fa-edit"></i></li>
+                <li>Task 3</li> -->
+            </ul>
+            <ul id="date" class="dates">
+                <!-- <li class="checked">12:58 PM</li>
+                <li>123</li>
+                <li>13</li> -->
+            </ul>
+
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
