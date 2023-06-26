@@ -110,7 +110,7 @@ ul.task-details li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(/unchecked.png);
+    background-image: url(/todo/unchecked.png);
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -121,7 +121,7 @@ ul.task-details li.checked{
 }
 ul.task-details li.checked::before
 {
-    background-image: url(/checked.png);
+    background-image: url(/todo/checked.png);
 }
 ul.dates li{
     list-style: none;
