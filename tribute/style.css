@@ -1,0 +1,97 @@
+*{
+    font-family: 'Merriweather', serif;
+
+}
+body{
+
+    background: rgb(0, 0, 0);
+   
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: azure;
+
+}
+.pic{
+    display: flex;
+    flex-direction: row;
+}
+.quotes{
+    margin-top: 17rem ;
+    margin-left: 15rem;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 700;
+    color: azure;
+}
+.biography{
+    background-image: url(/pic2.jpg);
+    
+    display: flex;
+    height: 20rem;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70rem;
+    align-items:flex-start;
+    justify-content: center;
+    margin-left:-9px ;
+    color: azure;
+
+}
+.biography h1{
+    color: azure;
+    margin-left: 22rem;
+
+}
+.biography p{
+    color: azure;
+    max-width: 32rem;
+    color: azure;
+    max-width: 32rem;
+    margin-left: 12rem;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: large;
+
+}
+.achievements{
+
+   
+    display: flex;
+
+    
+    flex-direction: row;
+    height: 70rem;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-left:-9px ;
+    
+}
+
+.achievements h1{
+    color: azure;
+    position: relative;
+    margin-top: 5rem;
+    list-style: none;
+    
+}
+.achievements ul{
+    color: azure;
+    position: relative;
+    max-width: 50rem;
+    backdrop-filter: blur(10px);
+    z-index: 2;
+}
+.achievements img{
+    width: 62rem;
+    height: 38rem;
+}
