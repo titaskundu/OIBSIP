@@ -33,7 +33,7 @@ header{
     color: azure;
 }
 .biography{
-    background-image: url(/pic2.jpg);
+    background-image: url(/tribute/pic2.jpg);
     
     display: flex;
     height: 20rem;
